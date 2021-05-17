@@ -1,6 +1,8 @@
+import interpreter.Interpreter;
+
 public class Main {
     public static void main(String[] args)
     {
-        System.out.println("Pidor");
+        Interpreter.GENERAL.count("22","34");
     }
 }
